@@ -125,9 +125,9 @@ div img{
  /*  feedback section  */
 
  .feedback{
-     background-color: #f4f4f4;
-     padding: 30px 0px;
-     margin-bottom: 30px 0px;
+     display: block;
+     background-image:url(images/shapes/7.png);
+     padding: 20px;
  }
 
  cite img{
@@ -147,6 +147,11 @@ div img{
 
  /*   pricing section  */
 
+ .pricing{
+    background-color: #f4f4f4;
+    padding: 30px 0px;
+    margin-bottom: 30px 0px;
+}
 
  .item-display a{
     display: inline-block;
