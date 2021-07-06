@@ -131,17 +131,37 @@ div img{
  }
 
  cite img{
-     height: 50px;
+     height: 45px;
      width: 45px;
      border-radius: 50%;
      vertical-align: middle;
      margin-right: 10px;
      margin-left: 30px;
-     padding-top: 10px;
-     font-style: italic;
-     
+     padding-top: 10px; 
  }
 
+ cite{
+     font-style: italic;
+ }
+
+
+ /*   pricing section  */
+
+
+ .item-display a{
+    display: inline-block;
+     text-decoration: none;
+     background-color: orange;
+     padding: 12px 20px;
+     color: white;
+     font-weight: 900;
+     border-radius: 30px;
+     
+     
+     
+     place-items: center;
+
+ }
 
 
 /* footer  */
@@ -150,12 +170,10 @@ footer{
     padding-top: 10px;
     padding-bottom: 50px;
     word-spacing: 2px;
+    text-align: center;
 }
 
- footer h3,p{
-     text-align: center;
- }
-
+ 
  footer h3{
      color: grey;
  }
