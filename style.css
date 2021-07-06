@@ -91,7 +91,7 @@ div img{
  }
 
 
- /*  section 3 */
+ /*  recipie section  */
 
  .item-display img{
   /*  style="width: 50%;margin:50px auto;
@@ -105,21 +105,61 @@ div img{
 
  .item-display{
      background-color: white;
-     width: 30%;
+     width: 28%;
      border-radius: 30px;
      padding: 15px;
-     box-shadow: 6px 6px 8px grey;
-     margin: 0px 2%;
+     box-shadow: 6px 6px 15px grey;
+     margin: 0px 2.5%;
  }
 
  .item-padding{
      padding: 40px 0px;
  }
 
+ .para-center{
+     width: 70%;
+     margin-left: 15%;
+ }
+
+
+ /*  feedback section  */
+
+ .feedback{
+     background-color: #f4f4f4;
+     padding: 30px 0px;
+     margin-bottom: 30px 0px;
+ }
+
+ cite img{
+     height: 50px;
+     width: 45px;
+     border-radius: 50%;
+     vertical-align: middle;
+     margin-right: 10px;
+     margin-left: 30px;
+     padding-top: 10px;
+     font-style: italic;
+     
+ }
+
 
 
 /* footer  */
+footer{
+    background-color: rgb(15, 15, 15);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    word-spacing: 2px;
+}
 
  footer h3,p{
      text-align: center;
+ }
+
+ footer h3{
+     color: grey;
+ }
+
+ footer p{
+     color: white;
  }
