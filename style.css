@@ -1,27 +1,25 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
 
 h1{
-    font-size: 50px;
-    font-weight: bolder;
-    line-height: 70%;
-}
-h2{
-    font-size: 30px;
-    font-weight: bolder;
-}
-p{
-    font-size: 20px; 
+    font-size: 40px;
+    font-weight: 900;
    
 }
-
-a{
-    position: relative;
-    
-    
+h2{
+    font-size: 32px;
+    font-weight: 900;
 }
+
+h3{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
 
 .color-text{
     color: orange;
@@ -30,20 +28,18 @@ a{
 .flexible-container{
     display: flex;
     width: 100%;  
-    margin-bottom: 180px;  
+    margin-bottom: 120px;  
 }
 
 .half-width{
     width: 50%; 
     margin: 0px 10%;
+    margin-top: 30px;
+    padding-top: 3%;
+    
     
 }
 
-div img{
-    width: 100%;
-    
-    
-}
 
 
 
@@ -62,29 +58,68 @@ div img{
 
 /* top background */
 
-.top-background{
-    background-image: url(images/shapes/Group\ 8450.png);
+.top{
+    background-image: url(images/shapes/Group\ 8449.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    height: 100vh;
+    background-position: center;
+    background-size:  contain;
+    
+    
     
     
 }
 
 
 
+/* section 2 */
+
+div img{
+    width: 100%;   
+}
 
 
  .middle-banner{
      background-image: url(images/shapes/Frame\ 59.jpg);
      background-repeat: no-repeat;
-     padding-top: 30px;
+     
  }
 
  .center-text{
      text-align: center;
+     font-weight: 900;
     
  }
 
 
+ /*  section 3 */
+
+ .item-display img{
+  /*  style="width: 50%;margin:50px auto;
+  style="background-color: #f4f4f4;
+    "style="box-shadow: 5px 5px 10px grey;border-radius: 30px;*/
+    
+    
+    height: 60%;
+    border-radius: 30px;  
+ }
+
+ .item-display{
+     background-color: white;
+     width: 30%;
+     border-radius: 30px;
+     padding: 15px;
+     box-shadow: 6px 6px 8px grey;
+     margin: 0px 2%;
+ }
+
+ .item-padding{
+     padding: 40px 0px;
+ }
+
+
+
+/* footer  */
+
+ footer h3,p{
+     text-align: center;
+ }
