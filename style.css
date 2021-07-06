@@ -6,6 +6,7 @@ body{
 h1{
     font-size: 40px;
     font-weight: 900;
+    line-height: 100%;
    
 }
 h2{
@@ -41,18 +42,16 @@ h3{
 }
 
 
-
-
-
 .button-style{
     text-decoration: none;
+    display: inline-block;
     background-image: linear-gradient(to right, orange,salmon);
     padding: 13px 30px;
     color: white;
     font-weight: 900;
     border-radius: 20px;
-   
-    
+    margin: 5px 0px;
+  
     
 }
 
@@ -63,10 +62,7 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
     background-size:  contain;
-    
-    
-    
-    
+
 }
 
 
@@ -86,19 +82,18 @@ div img{
 
  .center-text{
      text-align: center;
-     font-weight: 900;
-    
+     font-weight: 900; 
+ }
+
+ .box-align{
+     
+     margin-top:6%;
  }
 
 
  /*  recipie section  */
 
- .item-display img{
-  /*  style="width: 50%;margin:50px auto;
-  style="background-color: #f4f4f4;
-    "style="box-shadow: 5px 5px 10px grey;border-radius: 30px;*/
-    
-    
+ .item-display img{  
     height: 60%;
     border-radius: 30px;  
  }
@@ -136,7 +131,7 @@ div img{
      border-radius: 50%;
      vertical-align: middle;
      margin-right: 10px;
-     margin-left: 30px;
+     margin-left: 40px;
      padding-top: 10px; 
  }
 
@@ -153,23 +148,10 @@ div img{
     margin-bottom: 30px 0px;
 }
 
- .item-display a{
-    display: inline-block;
-     text-decoration: none;
-     background-color: orange;
-     padding: 12px 20px;
-     color: white;
-     font-weight: 900;
-     border-radius: 30px;
-     
-     
-     
-     place-items: center;
-
- }
 
 
 /* footer  */
+
 footer{
     background-color: rgb(15, 15, 15);
     padding-top: 10px;
