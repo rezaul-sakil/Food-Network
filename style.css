@@ -1,1 +1,90 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 70%;
+}
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+p{
+    font-size: 20px; 
+   
+}
+
+a{
+    position: relative;
+    
+    
+}
+
+.color-text{
+    color: orange;
+}
+
+.flexible-container{
+    display: flex;
+    width: 100%;  
+    margin-bottom: 180px;  
+}
+
+.half-width{
+    width: 50%; 
+    margin: 0px 10%;
+    
+}
+
+div img{
+    width: 100%;
+    
+    
+}
+
+
+
+
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange,salmon);
+    padding: 13px 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 20px;
+   
+    
+    
+}
+
+/* top background */
+
+.top-background{
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 100vh;
+    
+    
+}
+
+
+
+
+
+ .middle-banner{
+     background-image: url(images/shapes/Frame\ 59.jpg);
+     background-repeat: no-repeat;
+     padding-top: 30px;
+ }
+
+ .center-text{
+     text-align: center;
+    
+ }
+
 
